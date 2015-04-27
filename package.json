@@ -1,0 +1,27 @@
+{
+  "name": "timesynchro",
+  "version": "1.0.0",
+  "description": "Damn Simple Time Synchronization Client [use with timesynchro-server]",
+  "main": "client.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bemusic/timesynchro.git"
+  },
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/bemusic/timesynchro/issues"
+  },
+  "homepage": "https://github.com/bemusic/timesynchro"
+}
