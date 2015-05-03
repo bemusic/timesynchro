@@ -1,6 +1,6 @@
 {
   "name": "timesynchro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Damn Simple Time Synchronization Client [use with timesynchro-server]",
   "main": "client.js",
   "directories": {
