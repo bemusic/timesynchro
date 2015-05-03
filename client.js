@@ -19,7 +19,11 @@ function sync(url, callback, callback2) {
     return callback(null, timesync.offset(clocks))
   }
   function emit() {
-    ws.send('' + new Date().getTime())
+    try {
+      ws.send('' + new Date().getTime())
+    } catch (e) {
+      // do nuffink
+    }
   }
   function process(text) {
     var fields = text.split(',')
@@ -32,5 +36,3 @@ function sync(url, callback, callback2) {
     }
   }
 }
-
-
